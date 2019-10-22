@@ -121,7 +121,7 @@
     });
   });
 
-  xdescribe("isDead", function() {
+  describe("isDead", function() {
     it("returns false for positive number 20", () => {
       expect(isDead(20)).toBe(false);
     });
@@ -139,7 +139,7 @@
     });
   });
 
-  xdescribe("fight", function() {
+  describe("fight", function() {
     const PLAYER1 = 2,
       PLAYER2 = 9;
 
