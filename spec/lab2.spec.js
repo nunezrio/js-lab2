@@ -56,7 +56,7 @@
     });
   });
 
-  xdescribe("chooseOption", function() {
+  describe("chooseOption", function() {
     it("should return one of the two parameters", function() {
       let result = chooseOption("cat", "dog");
       if (result !== "cat") {
@@ -93,7 +93,7 @@
     });
   });
 
-  xdescribe("attackPlayer", function() {
+  describe("attackPlayer", function() {
     it("should return number minus randomDamage, 3", function() {
       mockRandom(3);
       let result = attackPlayer(7);
@@ -107,7 +107,7 @@
     });
   });
 
-  xdescribe("logging functions", function() {
+  describe("logging functions", function() {
     it("logDeath logs appropriate message to the console", () => {
       spyOn(console, "log");
       logDeath("Tarzan", "Clayton");
