@@ -48,4 +48,4 @@ function fight(player1, player2, player1Health, player2Health) {
   }
 }
 
-fight("Sub-Zero", "Scoprion", 100, 100);
+fight("Sub-Zero", "Scorpion", 100, 100);
